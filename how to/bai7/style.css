@@ -1,0 +1,30 @@
+*{box-sizing:border-box}
+body,html{
+    height: 100%;
+    margin:0;
+    font-family:Arial;
+}
+.tablink{
+    background:#555;
+    color:white;
+    float:left;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    padding: 24px 16px;
+    font-size:17px;
+    width:25%;
+}
+.tablink:hover{
+    background:#777;
+}
+.tabcontent{
+    color:white;
+    display:none;
+    padding: 100px 20px;
+    height:100%;
+}
+#Home{background:red;}
+#News{background:green;}
+#Contact{background:blue;}
+#About{background:orange;}
